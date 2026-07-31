@@ -1,4 +1,4 @@
-# 🌐 CSCB20 - Introduction to Databases and Web Applications
+# 🌐 CSCB20 — Intro to Databases & Web Applications
 
 <div align="center">
 
@@ -7,85 +7,78 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 
-**CSCB20 课程作业合集 - 数据库与Web应用开发**
+**Course assignment collection — from static HTML to full-stack Flask applications.**
 
 </div>
 
 ---
 
-## 📖 项目简介
+## 📖 Overview
 
-这是多伦多大学 **CSCB20: Introduction to Databases and Web Applications** 课程的作业合集，涵盖前端开发（HTML/CSS）和后端开发（Flask+SQL）。
+Coursework collection for **CSCB20: Introduction to Databases and Web Applications** at the University of Toronto Scarborough. Covers frontend development (HTML/CSS responsive design) and backend development (Flask + SQLite full-stack application).
 
-## 📁 项目目录
+## 📁 Contents
 
-| 目录 | 内容 | 说明 |
-|------|------|------|
-| `assignment2/` | 课程网站 | HTML/CSS 响应式设计 |
-| `flask-app/` | 学生管理系统 | Flask + SQLite 全栈应用 |
+| Directory | Project | Stack |
+|-----------|---------|-------|
+| `assignment2/` | Course Website | HTML5, CSS3, Responsive Design |
+| `flask-app/` | Student Grade Manager | Flask, SQLite, SQLAlchemy |
 
-## 🗂️ 项目结构
+## 🗂️ Project Structure
 
 ```
 cscb20-assignments/
-├── assignment2/               # 作业2：课程网站
-│   ├── home.html              # 主页
-│   ├── home.css               # 基础样式
-│   ├── home_desktop.css       # 桌面端样式
-│   ├── home_mobil.css         # 移动端样式
-│   └── README.md
-├── flask-app/                 # Flask 学生管理系统
-│   ├── app.py                 # 主应用
-│   ├── assignment3.db         # SQLite数据库
-│   ├── templates/             # HTML模板
-│   ├── static/                # 静态资源
-│   └── README.md
-└── README.md                  # 本文件
+├── assignment2/                    # Course website (HTML/CSS)
+│   ├── home.html
+│   ├── home.css
+│   ├── home_desktop.css
+│   └── home_mobil.css
+├── flask-app/                      # Student management system (Flask)
+│   ├── app.py
+│   ├── assignment3.db
+│   ├── templates/
+│   └── static/
+└── README.md
 ```
 
-## 🛠️ 技术栈
+## 🛠️ Tech Stack
 
-| 技术 | 用途 |
-|------|------|
-| HTML5 | 页面结构 |
-| CSS3 | 样式与响应式设计 |
-| Python | 后端开发 |
-| Flask | Web框架 |
-| SQLite | 数据库 |
+| Technology | Use |
+|------------|-----|
+| HTML5 | Page structure |
+| CSS3 | Styling & responsive breakpoints |
+| Python | Backend language |
+| Flask | Web framework |
+| SQLite | Database |
 | SQLAlchemy | ORM |
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-### 课程网站
+### Course Website
 
 ```bash
 cd assignment2
 open home.html
 ```
 
-### Flask 应用
+### Flask Application
 
 ```bash
 cd flask-app
 pip install -r requirment.txt
 python app.py
-# 访问 http://localhost:5000
+# Open http://localhost:5000
 ```
 
-## 📝 课程信息
+## 📝 Course Info
 
-- **课程代码**: CSCB20
-- **课程名称**: Introduction to Databases and Web Applications
-- **所属机构**: University of Toronto Scarborough
+- **Course**: CSCB20
+- **Institution**: University of Toronto Scarborough
 
-## 📄 许可证
+## 📄 License
 
-本项目为课程作业合集，仅供学习参考使用。
+Coursework collection — for reference and educational purposes only.
 
 ---
 
-<div align="center">
-
-**Made with ❤️ for CSCB20**
-
-</div>
+<div align="center">**Made with ❤️ for CSCB20**</div>
